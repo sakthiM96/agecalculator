@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5b62e;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .heading {
+  position: absolute;
+  top: 10%;
+  font-size: 3em;
+  font-weight: 1000;
+  letter-spacing: 3px;
+}
+
+.container .input {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  width: 500px;
+  background-color: black;
+  border-radius: 7px;
+  box-shadow: 2px 14px 20px rgba(0, 0, 0, 0.6);
+}
+.container .input .date {
+  height: 50px;
+  border-radius: 5px;
+  width: 60%;
+  padding: 0px 14px;
+  font-size: 18px;
+  outline: none;
+}
+
+.container .input .submit {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.container .result {
+  display: flex;
+  width: 500px;
+  padding: 0 2px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.container .box {
+  color: #fff;
+  background: #080808;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 14px 20px rgba(0, 0, 0, 0.6);
+}
+.container .box span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container .box p {
+  margin-top: 5px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #999;
+}
